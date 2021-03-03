@@ -50,6 +50,7 @@ window.addEventListener("load", () => {
             Fog: "FOG",
           };
 
+          // Adding page content
           timeZone.innerHTML = data.name;
           tempDegree.innerHTML = convertKelToF(temp).toFixed(0);
           tempDescription.innerHTML = newTest;
